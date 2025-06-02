@@ -2,19 +2,35 @@ public class operator {
     public static void main(String[] args) {
         int a = 10, b = 3;
 
-        int sum = a + b;
-        System.out.println("sum(+): " + sum);
+//        int sum = a + b;
+//        System.out.println("sum(+): " + sum);
+//
+//        int difference = a - b;
+//        System.out.println("difference(-): " + difference);
+//
+//        int product = a * b;
+//        System.out.println("product(*): " + product);
+//
+//        int quotient = a / b;
+//        System.out.println("quotient(/): " + quotient);
+//
+//        int remainder = a % b;
+//        System.out.println("remainder(%): " + remainder);
 
-        int difference = a - b;
-        System.out.println("difference(-): " + difference);
+        a += 5; // a = a + 5;
+        System.out.println(a);
 
-        int product = a * b;
-        System.out.println("product(*): " + product);
+        b -= 1;
+        System.out.println(b); // 2
 
-        int quotient = a / b;
-        System.out.println("quotient(/): " + quotient);
+        b *= 5;
+        System.out.println(b); // 10
 
-        int remainder = a % b;
-        System.out.println("remainder(%): " + remainder);
+        b /= 2;
+        System.out.println(b); // 5
+
+        b %= 3;
+        System.out.println(b); // 2
+
     }
 }
