@@ -1,4 +1,4 @@
-class Person {
+class Person1 {
     String name;
     int age;
     String mbti;
@@ -28,7 +28,7 @@ class Car {
 
 public class Classes {
     public static void main(String[] args) {
-        Person person = new Person();
+        Person1 person = new Person1();
         person.name = "Alice";
         person.age = 20;
         person.mbti = "enfp";
