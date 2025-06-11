@@ -2,9 +2,9 @@ class Person {
     String name;
     int age;
 
-    public Person(String inputName, int inputAge) {
-        this.name = inputName;
-        this.age = inputAge;
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
     }
 
     void hello() {
