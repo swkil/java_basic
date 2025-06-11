@@ -20,7 +20,7 @@ public class Constructors {
         person.hello();
 
         Person person1 = new Person();
-        person1.name = "Alice";
+        person1.name = "Mike";
         person1.hello();
     }
 }
