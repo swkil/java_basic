@@ -14,7 +14,7 @@ class Person1 {
     }
 }
 
-class Car {
+class Car1 {
     String brand;
     int year;
     String color;
@@ -36,7 +36,7 @@ public class Classes {
         person.sayHello();
         person.work();
 
-        Car car = new Car();
+        Car1 car = new Car1();
         car.brand = "포르쉐";
         car.year = 2020;
         car.color = "빨강";
