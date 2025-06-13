@@ -1,10 +1,10 @@
-class Person {
+class Person2 {
     String name;
     int age;
 
-    public Person() {}
+    public Person2() {}
 
-    public Person(String name, int age) {
+    public Person2(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -16,10 +16,10 @@ class Person {
 
 public class Constructors {
     public static void main(String[] args) {
-        Person person = new Person("Bob", 18);
+        Person2 person = new Person2("Bob", 18);
         person.hello();
 
-        Person person1 = new Person();
+        Person2 person1 = new Person2();
         person1.name = "Mike";
         person1.hello();
     }
